@@ -9,8 +9,8 @@ workflows:
     scripts:
       - name: Decode keystore
         script: |
-          mkdir -p /Users/usuario/Documents/KeyStore
-          echo "$CM_KEYSTORE" | base64 --decode > /Users/usuario/Documents/KeyStore/keystore.jks
+          mkdir -p $CM_BUILD_DIR/android/app
+          echo "$CM_KEYSTORE" | base64 --decode > $CM_BUILD_DIR/android/app/keystore.jks
       - name: Get dependencies
         script: flutter pub get
       - name: Build App Bundle

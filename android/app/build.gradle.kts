@@ -31,7 +31,7 @@ android {
         create("release") {
             keyAlias = "edgar"
             keyPassword = "Adminch19820"
-            storeFile = file("/Users/usuario/Documents/KeyStore//keystore.jks")
+            storeFile = file("keystore.jks")
             storePassword = "Adminpsw19820"
         }
     }

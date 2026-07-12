@@ -26,6 +26,7 @@ dependencies:
   text_scroll: ^0.2.0
   flutter_native_splash: ^2.4.7
   html: ^0.15.6
+  webview_flutter_wkwebview: ^3.26.0
 
 dev_dependencies:
   flutter_test:

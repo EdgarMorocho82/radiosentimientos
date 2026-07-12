@@ -32,7 +32,8 @@ workflows:
       - name: Install pods
         script: |
           cd ios
-          pod install
+          pod repo update
+          pod install --repo-update
       - name: Build IPA
         script: flutter build ipa --release
     artifacts:

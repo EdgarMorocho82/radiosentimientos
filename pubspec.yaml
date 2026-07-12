@@ -1,7 +1,7 @@
 name: radioxr
 description: Radio App Theme.
 publish_to: 'none'
-version: 2.1.0+7
+version: 2.2.0+7
 
 environment:
   sdk: ^3.9.2

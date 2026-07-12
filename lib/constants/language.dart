@@ -7,7 +7,7 @@ class Language {
   static const share = 'Compartir';
   static const moreInformation = 'Más Información';
   static const versonApp = 'Versión App';
-  static const numberVersonApp = '2.1';
+  static const numberVersonApp = '2.2';
   static const developer = 'COMPUHOME';
 
   // Sleep Timer
